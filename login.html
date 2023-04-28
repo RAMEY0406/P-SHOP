@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login your account</title>
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexstyle.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between position-sticky top-0 p-2" style="z-index: 1; box-shadow: 1px 1px 5px darkgreen;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light bg-success rounded-3 fs-5 p-2 me-5" href="index.html">P-SHOP <span><i class="fa-solid fa-shop"></i></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav m-auto me-5 mb-2 mb-lg-0 fs-5">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+
+            <!-- dark mode -->
+           <div class="sun">
+            <i class="fa-solid sun fa-sun me-5" onclick="changeMode()"></i>
+            </div>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success me-3" type="submit">Search</button>
+              <a href="login.html" class="btn btn-outline-success bg-success text-light me-3">LOGIN</a>
+              <a href="signup.html" class="btn btn-outline-success bg-success text-light" style="width: 170px;">SIGN-UP</a>
+            </form>
+          </div>
+        </div>
+      </nav><br>
+
+      <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+            <h1 class="h1 text-success">P-SHOP Cambodia</h1><br>
+            <p class="h5" face="Bokor">
+                សូមស្វាគមន៍មកកាន់ P-SHOP.COM ទីផ្សារអនឡាញដ៏ធំបំផុតនៅក្នុងប្រទេសកម្ពុជា
+            </p>
+        </div>
+    </div><br> <br>
+
+    <!-- form -->
+      <div class="container rounded-3" style="width: 30%;">
+        <form>
+            <div class="title p-4 text-center">
+                <h1>Login Account</h1>
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form2Example1" class="form-control" />
+              <label class="form-label" for="form2Example1">Email address</label>
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form2Example2" class="form-control" />
+              <label class="form-label" for="form2Example2">Password</label>
+            </div>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label" for="form2Example31"> Remember me </label>
+                </div>
+              </div>
+          
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="button" class="btn btn-primary btn-block bg-success mb-4 w-100">Sign in</button>
+          
+            <!-- Register buttons -->
+            <div class="text-center p-2">
+              <p>Not a member? <a href="signup.html">Register</a></p>
+              <p>or sign up with:</p>
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+          
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+          
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+          
+              <button type="button" class="btn btn-link btn-floating mx-1">
+                <i class="fab fa-telegram"></i>
+              </button>
+            </div>
+          </form>
+       </div>
+    </div><br><br>
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">P-SHOP <span><i class="fa-solid fa-shop"></i></span></h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            PhnomPenh Cambodia
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="#">066-425-20</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="#">etecenter@team.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Phone</a></li>
+                        <li><a class="text-decoration-none" href="#">Computer</a></li>
+                        <li><a class="text-decoration-none" href="#">Tabplat</a></li>
+                        <li><a class="text-decoration-none" href="#">កាស</a></li>
+                        <li><a class="text-decoration-none" href="#">គ្រឿងអេឡិចត្រូនិច</a></li>
+                        <li><a class="text-decoration-none" href="#">គ្រឿងបន្លាសទូរស័ព្ធ</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Shops</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 
+                            | Designed by <a rel="sponsored" href="#" target="_blank">Team Group ETECENTER</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+  <i class="fa-solid fa-less-than text-success less d-none">
+  <i class="fa-solid fa-greater-than text-success greater d-none"></i>
+</body>
+        <script src="css/bootstrap.bundle.min.js"></script>
+        <script src="css/index.js"></script>
+</html>
+

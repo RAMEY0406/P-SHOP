@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte to P-SHOP</title>
+    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexstyle.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between position-sticky top-0 p-2" style="z-index: 1; box-shadow: 1px 1px 5px darkgreen;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light bg-success rounded-3 fs-5 p-2 me-5" href="index.html">P-SHOP <span><i class="fa-solid fa-shop"></i></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav m-auto me-5 mb-2 mb-lg-0 fs-5">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+
+            <!-- dark mode -->
+           <div class="sun">
+            <i class="fa-solid sun fa-sun me-5" onclick="changeMode()"></i>
+            </div>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success me-3" type="submit">Search</button>
+              <a href="login.html" class="btn btn-outline-success bg-success text-light me-3">LOGIN</a>
+              <a href="signup.html" class="btn btn-outline-success bg-success text-light" style="width: 170px;">SIGN-UP</a>
+            </form>
+          </div>
+        </div>
+      </nav><br>
+    
+      <!-- Start Content Page -->
+    <div class="container-fluid py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1 text-success">Contact Us</h1>
+            <p>
+                Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet.
+            </p>
+            <div class="row pt-5">
+                <div class="socail-media" style="width: 180px;">
+                    <a href="https://www.facebook.com/bong.chen.3975?mibextid=LQQJ4d"><img class="img-fluid" style="height: 150px;" src="img/Facebook.png" alt=""></a>
+                </div>
+                <div class="socail-media" style="width: 180px;">
+                    <a href="https://www.facebook.com/bong.chen.3975?mibextid=LQQJ4d"><img class="img-fluid" style="height: 150px;" src="img/Messenger.png" alt=""></a>
+                </div>
+                <div class="socail-media" style="width: 180px;">
+                    <a href="https://www.tiktok.com/@ra_mey0?_t=8bcBmymznsH&_r=1"><img class="img-fluid" style="height: 150px;" src="img/tiktok.webp" alt=""></a>
+                </div>
+                <div class="socail-media" style="width: 180px;">
+                    <a href="https://t.me/RA_MEY1"><img class="img-fluid rounded-circle" style="height: 150px;" src="img/telegram.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Contact -->
+    <div class="container">
+        <div class="row py-5">
+            <form class="col-md-9 m-auto" method="post" role="form">
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputname">Name</label>
+                        <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputemail">Email</label>
+                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="inputsubject">Subject</label>
+                    <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Subject">
+                </div>
+                <div class="mb-3">
+                    <label for="inputmessage">Message</label>
+                    <textarea class="form-control mt-1" id="message" name="message" placeholder="Message" rows="8"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col text-end mt-2">
+                        <button type="submit" class="btn btn-success btn-lg px-3">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">P-SHOP <span><i class="fa-solid fa-shop"></i></span></h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            PhnomPenh Cambodia
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="#">066-425-20</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="#">etecenter@team.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Phone</a></li>
+                        <li><a class="text-decoration-none" href="#">Computer</a></li>
+                        <li><a class="text-decoration-none" href="#">Tabplat</a></li>
+                        <li><a class="text-decoration-none" href="#">កាស</a></li>
+                        <li><a class="text-decoration-none" href="#">គ្រឿងអេឡិចត្រូនិច</a></li>
+                        <li><a class="text-decoration-none" href="#">គ្រឿងបន្លាសទូរស័ព្ធ</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                        <li><a class="text-decoration-none" href="shop.html">Shops</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="#"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 
+                            | Designed by <a rel="sponsored" href="#" target="_blank">Team Group ETECENTER</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+  <i class="fa-solid fa-less-than text-success less d-none">
+  <i class="fa-solid fa-greater-than text-success greater d-none"></i>
+</body>
+        <script src="css/bootstrap.bundle.min.js"></script>
+        <script src="css/index.js"></script>
+</html>
+

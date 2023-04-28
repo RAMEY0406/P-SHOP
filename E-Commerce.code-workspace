@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../templatemo_559_zay_shop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "E-Commerce"
+	}
+}

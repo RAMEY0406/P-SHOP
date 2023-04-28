@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.socail-media img:hover{
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+    
+}
